@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Models & data (keep CSV; model can be large)
+models/*.h5
+models/*.keras
+models/*.pth
+
+# Streamlit
+.streamlit/
